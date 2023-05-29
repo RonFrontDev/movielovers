@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+&__btn {
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: rebeccapurple;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+}

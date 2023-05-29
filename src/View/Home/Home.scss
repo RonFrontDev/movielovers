@@ -1,0 +1,22 @@
+
+.home {
+    // background-image: url(/src/images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    min-height: 100vh;
+    font-size: 1.4rem;
+    &__pageinfo {
+       color: white;
+       font-size: 1rem;
+       display: flex;
+       justify-content: space-around;
+    }
+    &__headline {
+      position: absolute;
+      font-size: 3em;
+      text-transform: uppercase;
+
+    }
+ }

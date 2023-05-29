@@ -1,0 +1,12 @@
+.testapi {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  &__image {
+    max-width: 100%;
+    max-height: 300px;
+  }
+}

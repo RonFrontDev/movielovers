@@ -1,0 +1,22 @@
+
+.searchbar {
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   &__form {
+      max-width: 300px;
+   }
+   &__input {
+      width: 100%;
+      margin-bottom: 10px;
+      
+   }
+   &__input::placeholder {
+      color: rebeccapurple;
+   }
+   &__btn {
+      width: 100%;
+      border: none;
+      background-color: rebeccapurple;
+   }
+}
