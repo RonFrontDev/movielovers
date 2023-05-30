@@ -4,6 +4,7 @@ import SearchBar from "../../components/Searchbar/Searchbar";
 import Results from "../../components/Results/Results";
 import { MovieContext } from "../../App";
 import Pagination from "../../components/Pagination/Pagination";
+import backgroundImage from "../../images/darth.jpg";
 
 function Home() {
   const { movieData } = useContext(MovieContext);
@@ -17,11 +18,7 @@ function Home() {
         {movieData !== null && <p>Page {movieData?.page}</p>}
         {movieData !== null && <p>Pages {movieData?.total_pages}</p>}
         {movieData == null && (
-          <img
-            className="home__image"
-            src="images/darth.jpg"
-            alt="background"
-          />
+          <img className="home__image" src={backgroundImage} alt="background" />
         )}
         {movieData == null && <p className="home__headline">Movie Database</p>}
       </div>
