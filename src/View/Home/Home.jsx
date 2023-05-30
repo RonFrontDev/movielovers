@@ -19,7 +19,7 @@ function Home() {
         {movieData == null && (
           <img
             className="home__image"
-            src="src/images/darth.jpg"
+            src="images/darth.jpg"
             alt="background"
           />
         )}
